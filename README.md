@@ -16,10 +16,7 @@
 
 8. Clash for Android -> settings -> network -> set ACLS as not allowing the selected app, then select nekobox and termux
 
-9. configure the ipcidr rules of VPS-IP in clash rules: field:
 
-```- IP-CIDR,{$VPS-IP}/32,DIRECT,no-resolve```
+9. configure nekobox as mode socks proxy only, and listening port as the same as the local socks5 proxy port in Clash config .
 
-10. configure nekobox as mode socks proxy only, and listening port as the same as the local socks5 proxy port in Clash config .
-
-11. Keep termux running, keep nekobox running, now enable Clash for Android VPNService, All done.
+10. Keep termux running, keep nekobox running, now enable Clash for Android VPNService, All done.
